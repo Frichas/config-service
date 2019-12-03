@@ -1,0 +1,11 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+spring:
+  rabbitmq:
+    host: 106.13.203.27
+    virtual-host: /study1
+    username: zzy
+    password: 666
