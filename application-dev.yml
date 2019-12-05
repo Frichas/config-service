@@ -1,2 +1,8 @@
 images:
   http://images.zzy666.com
+spring:
+  zipkin:
+    base-url: http://localhost:10020
+  sleuth:
+    sampler:
+      probability: 1.0
