@@ -9,8 +9,3 @@ spring:
     virtual-host: /study1
     username: zzy
     password: 666
-  zipkin:
-      base-url: http://localhost:10020
-  sleuth:
-    sampler:
-      probability: 1.0
